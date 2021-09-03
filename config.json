@@ -13,19 +13,6 @@
     "armv7",
     "i386"
   ],
-  "services": [
-    "mysql: want",
-    "mqtt: want",
-    ],
-  "hassio_api": true,
-  "hassio_role": "manager",
-  "homeassistant_api": true,
-  "host_network": true,
-  "auth_api": true,
-  
-  "devices": [
-    "/dev/usb"
-  ],
   "map": [
     "addons:rw",
     "ssl:rw",
