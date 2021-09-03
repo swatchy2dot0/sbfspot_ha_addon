@@ -60,3 +60,8 @@ Under the following conditions:
 A user of SBFspot software acknowledges that he or she is receiving this software on an "as is" basis and the user is not relying on the accuracy or functionality of the software for any purpose. The user further acknowledges that any use of this software will be at his own risk and the copyright owner accepts no responsibility whatsoever arising from the use or application of the software.
 
 SMA, Speedwire are registered trademarks of [SMA Solar Technology AG](http://www.sma.de/en/company/about-sma.html)
+
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20testing-red.svg
+[release-shield]: https://img.shields.io/badge/version-v0.0.1-blue.svg
+[release]: https://github.com/hassio-addons/addon-ssh/tree/v0.0.1
