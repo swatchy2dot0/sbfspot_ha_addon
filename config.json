@@ -28,6 +28,9 @@
     "81/tcp": "Proxy management web interface",
     "443/tcp": "HTTPS/SSL Entrance port"
   },
+  "devices": [
+    "/dev/net/tun"
+  ],
   "map": [
     "addons:rw",
     "ssl:rw",
