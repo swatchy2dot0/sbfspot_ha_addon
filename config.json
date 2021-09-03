@@ -18,18 +18,13 @@
     "mqtt:want",
   ],
   "hassio_api": true,
-  "ports": {
-    "80/tcp": 80,
-    "81/tcp": 81,
-    "443/tcp": 443
-  },
-  "ports_description": {
-    "80/tcp": "HTTP Entrance port",
-    "81/tcp": "Proxy management web interface",
-    "443/tcp": "HTTPS/SSL Entrance port"
-  },
+  "hassio_role": "manager",
+  "homeassistant_api": true,
+  "host_network": true,
+  "auth_api": true,
+  
   "devices": [
-    "/dev/net/tun"
+    "/dev/usb"
   ],
   "map": [
     "addons:rw",
