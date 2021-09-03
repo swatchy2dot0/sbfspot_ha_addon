@@ -1,3 +1,4 @@
+[![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 ## ![SBFspot Logo](https://user-images.githubusercontent.com/1931158/30831762-006ec650-a249-11e7-86e3-13d01b36dd5d.jpg)
 
 SBFspot addon for supervised Home Assistant, based an open source project located at github ([SBFspot on github](https://github.com/SBFspot/SBFspot)).
@@ -9,6 +10,9 @@ Add ([this respository](https://github.com/HABuild/SBFspot_HA_addon)) to Home As
 Fill in the config details to setup Inverter connection, Database, MQTT , and Upload API.
 
 Start the addon
+
+# ***Licence***
+([MIT Licence](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt))
 
 ## SBFspot Readme ([SBFspot on github](https://github.com/SBFspot/SBFspot)).
 ![SBFspot Logo](https://user-images.githubusercontent.com/1931158/30831762-006ec650-a249-11e7-86e3-13d01b36dd5d.jpg)
