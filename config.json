@@ -14,7 +14,8 @@
     "i386"
   ],
   "services": [
-    "mysql:need"
+    "mysql:want"
+    "mqtt:want"
   ],
   "hassio_api": true,
   "ports": {
@@ -28,6 +29,7 @@
     "443/tcp": "HTTPS/SSL Entrance port"
   },
   "map": [
+    "addons:rw",
     "ssl:rw",
     "backup:rw"
   ],
