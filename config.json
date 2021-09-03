@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "slug": "sbfspot_ha_addon",
   "description": "Manage SBFspot with a simple interface",
-  "url": "https://github.com/HABuild/sbfspot_ha_addon",
+  "url": "https://github.com/habuild/sbfspot_ha_addon",
   "webui": "http://[HOST]:[PORT:81]",
   "init": false,
   "arch": [
@@ -22,5 +22,5 @@
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "reset_database": "bool?"
   },
-  "image": "ghcr.io/HABuild/sbfspot_ha_addon/{arch}"
+  "image": "ghcr.io/habuild/sbfspot_ha_addon/{arch}"
 }
