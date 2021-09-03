@@ -22,5 +22,5 @@
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "reset_database": "bool?"
   },
-  "image": "ghcr.io/HABuild/SBFspot_HA_addon/{arch}"
+  "image": "ghcr.io/HABuild/sbfspot_ha_addon/{arch}"
 }
