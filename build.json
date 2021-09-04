@@ -1,0 +1,9 @@
+{
+  "build_from": {
+    "aarch64": "ghcr.io/habuild/sbfspot_ha_addon/aarch64:0.0.1",
+    "amd64": "ghcr.io/habuild/sbfspot_ha_addon/amd64:0.0.1",
+    "armhf": "ghcr.io/habuild/sbfspot_ha_addon/armhf:0.0.1",
+    "armv7": "ghcr.io/habuild/sbfspot_ha_addon/armv7:0.0.1",
+    "i386": "ghcr.io/habuild/sbfspot_ha_addon/i386:0.0.1"
+  }
+}
