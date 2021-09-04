@@ -27,4 +27,5 @@
     "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
     "reset_database": "bool?"
   },
+  "image": "habuild/sbfspot_ha_addon-{arch}"
 }
