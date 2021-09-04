@@ -30,6 +30,14 @@ Start the addon
 # ***Licence***
 ([MIT Licence](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt))
 
+# Thanks 
+SBFspot
+https://github.com/SBFspot/SBFspot
+
+and 
+nakla for the dockerfile
+https://github.com/nakla/sbfspot 
+
 ## SBFspot Readme ([SBFspot on github](https://github.com/SBFspot/SBFspot)).
 ![SBFspot Logo](https://user-images.githubusercontent.com/1931158/30831762-006ec650-a249-11e7-86e3-13d01b36dd5d.jpg)
 
