@@ -2,20 +2,23 @@
 ## ![SBFspot Logo](https://user-images.githubusercontent.com/1931158/30831762-006ec650-a249-11e7-86e3-13d01b36dd5d.jpg)
 
 ## ToDo List
+### Fix
 map directories to /addon/??
+
 configure gui to SBFspot.cfg and SBFspotUpload.cfg??
 
 
 
 ### Configure 
 built in MQTT conections??
+
 built in MariaDB ( point to and add database and user in existing addon??
 
 
-
+## ToDo end
 
 SBFspot addon for supervised Home Assistant, based an open source project located at github ([SBFspot on github](https://github.com/SBFspot/SBFspot)).
-This project creates an addon install for Home assistant users using rthe latest release of SBFspot as a docker install.
+This project creates an addon install for Home assistant users using the latest release of SBFspot as a docker install.
 
 # Installation and configuration
 Add ([this respository](https://github.com/HABuild/SBFspot_HA_addon)) to Home Assistant via the superviser > new respository menu > add respository
