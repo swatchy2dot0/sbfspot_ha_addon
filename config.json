@@ -1,31 +1,30 @@
 {
-  "name": "SBFspot Addon",
-  "version": "0.0.1",
-  "slug": "sbfspot_ha_addon",
-  "description": "Manage SBFspot with a simple interface",
-  "url": "https://github.com/habuild/sbfspot_ha_addon",
-  "startup": "once",
-  "boot": "manual",
-  "webui": "http://[HOST]:[PORT:82]",
-  "init": false,
-  "arch": [
-    "aarch64", 
-    "amd64", 
-    "armhf", 
-    "armv7", 
-    "i386"
-  ],
-  
-  "options": {},
-  
-  "map": [
-    "addons:rw",
-    "ssl:rw",
-    "backup:rw"
-  ],
-  "schema": {
-    "log_level": "list(trace|debug|info|notice|warning|error|fatal)?",
-    "reset_database": "bool?"
-  },
- }
+   "name":"SBFspot Addon",
+   "version":"0.0.1",
+   "slug":"sbfspot_ha_addon",
+   "description":"Manage SBFspot with a simple interface",
+   "url":"https://github.com/habuild/sbfspot_ha_addon",
+   "startup":"once",
+   "boot":"manual",
+   "webui":"http://[HOST]:[PORT:82]",
+   "init":false,
+   "arch":[
+      "aarch64",
+      "amd64",
+      "armhf",
+      "armv7",
+      "i386"
+   ],
+   "options":{
+      
+   },
+   "map":[
+      "addons:rw",
+      "ssl:rw",
+      "backup:rw"
+   ],
+   "schema":{
+      "log_level":"list(trace|debug|info|notice|warning|error|fatal)?",
+      "reset_database":"bool?"
+   }
 }
