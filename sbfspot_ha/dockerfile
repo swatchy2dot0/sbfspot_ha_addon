@@ -1,5 +1,11 @@
-# buildtime container
-FROM alpine:latest AS builder
+ARG BUILD_FROM
+FROM $BUILD_FROM
+
+MAINTAINER HasQT <https://community.home-assistant.io/u/hasqt>
+
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
+
+ENV LANG C.UTF-8
 
 ARG sbfspot_home=/usr/local/bin/sbfspot.3
 
