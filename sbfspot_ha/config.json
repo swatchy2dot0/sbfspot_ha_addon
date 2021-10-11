@@ -1,31 +1,39 @@
 {
-   "name":"SBFspot Addon",
-   "version":"0.0.1",
-   "slug":"sbfspot_ha_addon",
-   "description":"Manage SBFspot with a simple interface",
-   "url":"https://github.com/habuild/sbfspot_ha_addon",
-   "startup":"once",
-   "boot":"manual",
-   "webui":"http://[HOST]:[PORT:82]",
-   "init":false,
-   "arch":[
-      "aarch64",
-      "amd64",
-      "armhf",
-      "armv7",
-      "i386"
-   ],
-   "options":{
-      
-   },
-   "map":[
-      "addons:rw",
-      "ssl:rw",
-      "backup:rw"
-   ],
-   "schema":{
-      "log_level":"list(trace|debug|info|notice|warning|error|fatal)?",
-      "reset_database":"bool?"
-   },
-   "image": "habuild/{arch}-sbfspot_ha_addon"
-}
+  "name":"SBFspot Addon",
+  "version":"0.0.1",
+  "slug":"sbfspot_ha",
+  "description":"Manage SBFspot with a simple interface",
+  "url":"https://github.com/habuild/sbfspot_ha_addon",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "system",
+  "boot": "auto",
+  "host_network": true,
+  "apparmor": true,
+  "host_dbus": true,
+  
+  "options": {
+      "TZ": "Europe/Berlin"
+      "ENABLE_SBFSPOT": "1"
+      "SBFSPOT_INTERVAL": "300"
+      "ENABLE_SBFSPOT_UPLOAD": "1"
+      "DB_STORAGE": "mariadb"
+      "CSV_STORAGE": "0"
+      "MQTT_ENABLE": "1"
+      "QUIET": "0"
+      "SBFSPOT_ARGS": "-d0 -v2"
+      "INIT_DB": "0"
+  },
+  "schema": {
+      "TZ": "Europe/Berlin"
+      "ENABLE_SBFSPOT": "1"
+      "SBFSPOT_INTERVAL": "300"
+      "ENABLE_SBFSPOT_UPLOAD": "1"
+      "DB_STORAGE": "mariadb"
+      "CSV_STORAGE": "0"
+      "MQTT_ENABLE": "1"
+      "QUIET": "0"
+      "SBFSPOT_ARGS": "-d0 -v2"
+      "INIT_DB": "0"
+  }
+} 
+  
