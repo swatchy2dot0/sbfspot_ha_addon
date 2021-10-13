@@ -34,6 +34,7 @@
       "QUIET": "int",
       "SBFSPOT_ARGS": "str",
       "INIT_DB": "int"
-  }
+  },
+  "image": "sbfspot_ha_addon/{arch}-sbfspot_ha"
 } 
   
