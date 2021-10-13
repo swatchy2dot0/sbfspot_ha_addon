@@ -86,3 +86,5 @@ RUN chmod u+x /start.sh \
 USER $user
 
 ENTRYPOINT ["/start.sh"]
+
+LABEL io.hass.version="VERSION" io.hass.type="addon" io.hass.arch="armhf|aarch64|i386|amd64"
