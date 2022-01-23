@@ -16,7 +16,7 @@
       "ENABLE_SBFSPOT": "1",
       "SBFSPOT_INTERVAL": "300",
       "ENABLE_SBFSPOT_UPLOAD": "1",
-      "DB_STORAGE": "mariadb",
+      "DB_STORAGE": "sqlite",
       "CSV_STORAGE": "0",
       "MQTT_ENABLE": "1",
       "QUIET": "0",
